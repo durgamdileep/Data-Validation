@@ -29,6 +29,13 @@ Data Validation in Spring Boot is the process of validating user input automatic
 - Rarely used in normal applications  
 - Mostly used for severity level classification  
 
+## 🏛️ Controller Layer
+
+- 📝 **Payload + Message only** → use `@Valid` → validates **default group**.  
+- 🛠️ **Groups present** (whether we have payload and message or not) → use `@Validated` → validates **custom group**, ignores default unless included.  
+- 🔹 `@Valid` → default group only.  
+- 🎯 `@Validated(Group.class)` → specified group only.
+
 ---
 
 ## 🟢 Null Handling Annotations
