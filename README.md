@@ -6,8 +6,8 @@ Data Validation in Spring Boot is the process of validating user input automatic
 
 - 📌 **Types of Validation Annotations**  
 
- - 1️⃣ Default (Built-in) Annotations 
- - 2️⃣ Custom Validation Annotations
+  - 1️⃣ Default (Built-in) Annotations 
+  - 2️⃣ Custom Validation Annotations
 
 - **Common Attributes** (Almost all annotations contain these):
 
